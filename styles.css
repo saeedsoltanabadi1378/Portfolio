@@ -273,6 +273,18 @@ h1 {
   line-height: 1.6;
 }
 
+.saeed-experience {
+  margin-top: 18px;
+}
+
+.saeed-experience p:nth-child(odd) {
+  color: var(--ink);
+}
+
+.saeed-experience p:nth-child(even) {
+  margin-bottom: 8px;
+}
+
 .contact-list {
   display: flex;
   flex-wrap: wrap;
