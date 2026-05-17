@@ -122,32 +122,6 @@ h1 {
   line-height: 1.7;
 }
 
-.hero-actions {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0 18px;
-  border-radius: 8px;
-  font-weight: 700;
-}
-
-.primary {
-  background: #fffaf3;
-  color: var(--ink);
-}
-
-.ghost {
-  border: 1px solid rgba(255, 250, 243, 0.35);
-  background: rgba(255, 250, 243, 0.08);
-}
-
 .intro {
   padding: 54px 0 24px;
 }
