@@ -196,6 +196,10 @@ h1 {
   object-fit: cover;
 }
 
+.navid-photo {
+  object-position: center top;
+}
+
 .member-copy {
   display: flex;
   flex-direction: column;
