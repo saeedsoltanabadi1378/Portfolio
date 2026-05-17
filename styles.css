@@ -174,12 +174,6 @@ h1 {
   font-size: clamp(1.8rem, 4vw, 2.65rem);
 }
 
-.member-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 16px;
-}
-
 .featured-member {
   display: grid;
   grid-template-columns: minmax(250px, 0.72fr) minmax(320px, 1.28fr);
@@ -312,47 +306,11 @@ h1 {
   font-weight: 700;
 }
 
-.member-card {
-  min-height: 250px;
-  padding: 20px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.54);
-}
-
-.avatar {
-  display: grid;
-  place-items: center;
-  width: 56px;
-  height: 56px;
-  margin-bottom: 18px;
-  border-radius: 50%;
-  color: #fffaf3;
-  font-weight: 800;
-}
-
-.avatar-one { background: var(--coral); }
-.avatar-two { background: var(--teal); }
-.avatar-three { background: var(--olive); }
-.avatar-four { background: #8a5b43; }
-.avatar-five { background: var(--gold); }
-
-.member-card h3 {
-  margin: 0 0 4px;
-  font-size: 1.12rem;
-}
-
 .role {
   margin: 0 0 14px;
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 700;
-}
-
-.member-card p:last-child {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.65;
 }
 
 .principles {
@@ -432,10 +390,6 @@ h1 {
     max-height: 520px;
   }
 
-  .member-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .principles-grid,
   .footer {
     grid-template-columns: 1fr;
@@ -471,10 +425,6 @@ h1 {
 
   .hero-copy {
     font-size: 1rem;
-  }
-
-  .member-grid {
-    grid-template-columns: 1fr;
   }
 
   .footer {
